@@ -1,0 +1,82 @@
+p {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+p strong {
+    color: #007BFF;
+}
+
+#cocktailInfo {
+    align-items: center;
+}
+
+.cocktailDetails {
+    flex: 1;
+    padding-right: 20px; /* Espaciado opcional entre el contenido y la imagen */
+}
+
+img {
+    max-width: 50%; /* Ajusta la anchura máxima de la imagen al contenedor */
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    max-width: auto;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #3498db;
+    color: #fff;
+}
+h1 {
+    font-size: 36px;
+    color: #3498db; /* Color azul utilizado en los botones */
+    margin-bottom: 20px;
+}
+h2 {
+    font-size: 36px;
+    color: #3498db; /* Color azul utilizado en los botones */
+    margin-bottom: 20px;
+}
+h3 {
+    font-size: 36px;
+    color: #3498db; /* Color azul utilizado en los botones */
+    margin-bottom: 20px;
+}
+select option[value=""] {
+    color: #95a5a6; /* Color gris para la opción predeterminada */
+    font-style: italic; /* Estilo de fuente cursiva para la opción predeterminada */
+}
+#favoritesSection {
+    background-color: #ecf0f1; /* Color de fondo */
+    border: 2px solid #bdc3c7; /* Borde */
+    border-radius: 10px; /* Borde redondeado */
+    padding: 20px; /* Espaciado interno */
+    margin-bottom: 20px; /* Margen inferior */
+}
+
+/* Estilo para los detalles del coctel */
+#cocktailDetails h2 {
+    color: #3498db; /* Color azul para los encabezados */
+}
